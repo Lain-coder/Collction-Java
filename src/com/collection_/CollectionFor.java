@@ -1,8 +1,7 @@
-package com.collection;
+package com.collection_;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class CollectionFor {
     public static void main(String[] args) {
