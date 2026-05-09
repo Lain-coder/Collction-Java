@@ -12,7 +12,9 @@ public class CollectionFor {
 
         //1.增强for的使用,在Collection集合
         //2.增强for，底层仍然是迭代器
-        //3.增强for可以理解为简化版的迭代器遍历
+        //3.增强for可以理解为简化版的迭代器遍
+
+
         /*它到底解决了什么？
 ✅ 1. 不再关心索引
         for (int num : arr)

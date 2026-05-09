@@ -9,6 +9,9 @@ public class ListFor {
         list.add(1);
         list.add(2);
         list.add(3);
+
+
+
         System.out.println("list = " + list);
         //iterator
         System.out.println("iterator遍历  " );
