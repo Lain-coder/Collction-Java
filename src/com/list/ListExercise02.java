@@ -20,17 +20,16 @@ public class ListExercise02 {
         //如何对集合排序
 
 
-
         //遍历
 //        for (Object o : list) {
 //            System.out.println(o);
 //        }
-        list.forEach(System.out::println);//等价于上
+        list.forEach(System.out::println);//等价于上 0o 1lIL
 
         //冒泡排序
 
         sort(list);
-        System.out.println(" ++++排序后++++" );
+        System.out.println(" ++++排序后++++");
         list.forEach(System.out::println);
     }
 
@@ -41,12 +40,12 @@ public class ListExercise02 {
 
 不需要创建对象，也能直接调用的方法*/
     //要求从小到大价格排序
-    public static void sort(List list){
+    public static void sort(List<Book> list) {
 
-        for (int i = 0; i < list.size() -  1; i++) {
+        for (int i = 0; i < list.size() - 1; i++) {
             for (int j = 0; j < list.size() - 1 - i; j++) {
-                Book  book1 = (Book) list.get(j);
-                Book  book2 = (Book) list.get(j+1);
+                Book book1 = (Book) list.get(j);
+                Book book2 = (Book) list.get(j + 1);
 
 //                Object o =  list.get(j);
                 //关于什么时候需要向下转型  ↑
@@ -70,9 +69,9 @@ public class ListExercise02 {
                     想用子类功能，就向下转型*/
 
 
-                if(book1.price > book2.price){
+                if (book1.price > book2.price) {
                     list.set(j, book2);
-                    list.set(j+1, book1);
+                    list.set(j + 1, book1);
                 }
             }
         }
