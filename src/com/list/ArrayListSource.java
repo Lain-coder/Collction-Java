@@ -7,7 +7,9 @@ import java.util.ArrayList;
 
 public class ArrayListSource {
     public static void main(String[] args) {
+        //使用无参构造器创建ArrayList()对象
         ArrayList list = new ArrayList();
+        //添加十个数据
         for (int i = 1; i <= 10; i++) {
             list.add(i);
         }
