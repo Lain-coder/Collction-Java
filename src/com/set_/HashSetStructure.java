@@ -28,7 +28,7 @@ public class HashSetStructure {
 
         // 让 john 的 next 指向 jack。
         // 此时 table[2] 这条链是：
-        // john -> jack -> null
+        // john -> jack -> nuwswwwwwwwwwwwwsll
         john.next = jack;
 
         // 5. 创建第三个节点 Rose。

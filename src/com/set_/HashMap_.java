@@ -1,6 +1,7 @@
 package com.set_;
-
 import java.util.Map;
+import java.util.HashMap;
+
 
 //map.put(key, value);          // 添加或覆盖键值对
 //map.get(key);                 // 获取值；不存在则返回 null
@@ -8,10 +9,10 @@ import java.util.Map;
 //map.remove(key);              // 删除键值对
 //map.size();                   // 键值对数量
 //map.isEmpty();                // 是否为空
-public class HashMap {
+
+
+public class HashMap_ {
     public static void main(String[] args) {
         Map<Integer, Integer> map = new HashMap<>();
     }
 }
-
-
