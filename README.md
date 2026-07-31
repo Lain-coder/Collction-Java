@@ -7,6 +7,7 @@ Java 集合学习代码和笔记仓库。
 | 主题 | 笔记 | 配套代码 |
 | --- | --- | --- |
 | ArrayList 扩容机制 | [arraylist-growth.md](docs/arraylist-growth.md) | [ArrayListSource.java](src/com/list/ArrayListSource.java) |
+| HashSet 源码学习 | [hashset-source.md](docs/hashset-source.md) | [HashSetSource.java](src/com/set_/HashSetSource.java) |
 
 更多笔记入口：[docs/README.md](docs/README.md)
 
@@ -15,6 +16,7 @@ Java 集合学习代码和笔记仓库。
 ```text
 src/com/collection_/   Collection 基础示例
 src/com/list/          List 和 ArrayList 示例
+src/com/set_/          Set 和 HashSet 示例
 docs/                  学习笔记
 docs/assets/           笔记图片资源
 ```
