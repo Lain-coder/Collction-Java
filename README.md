@@ -1,6 +1,15 @@
-# Collction-Java
+# Collection-Java
 
 Java 集合学习代码和笔记仓库。
+
+## 学习进度
+
+| 模块 | 当前状态 | 说明 |
+| --- | --- | --- |
+| Collection | 已学习 | 基础接口、遍历和常用方法示例 |
+| List / ArrayList | 已学习 | 已整理 ArrayList 扩容机制笔记 |
+| Set / HashSet | 学习中 | 已整理 HashSet 源码学习笔记 |
+| Map / HashMap | 待整理 | 已有示例代码，后续补充源码笔记 |
 
 ## Notes
 
