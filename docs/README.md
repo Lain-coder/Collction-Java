@@ -5,6 +5,7 @@
 | 文件 | 主题 | 配套代码 |
 | --- | --- | --- |
 | [arraylist-growth.md](arraylist-growth.md) | ArrayList 扩容机制 | [ArrayListSource.java](../src/com/list/ArrayListSource.java) |
+| [hashset-source.md](hashset-source.md) | HashSet 源码学习 | [HashSetSource.java](../src/com/set_/HashSetSource.java) |
 
 ## Assets
 
